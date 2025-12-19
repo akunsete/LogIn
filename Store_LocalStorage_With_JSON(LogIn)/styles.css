@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Photos/Cloud.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ContainerLogIn{
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg,rgba(189, 224, 254, 1) 0%, rgba(248, 249, 250, 1) 25%);
+    box-shadow: 2px 5px 8px 0 rgb(0, 0, 0, .35);
+    gap: 18px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+}
+
+.LogoArrow {
+    position: absolute;
+    top: 30px;
+}
+
+.AllElements {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bx-arrow {
+    padding: 8px;
+    font-size: 28px;
+    color: #22333b;
+    background: #f6fff8;
+    text-align: center;
+    box-shadow: 2px 2px 6px 0 rgb(0, 0, 0, .2);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;    
+}
+
+.ContainerJudul{
+    margin-top: 15px;
+    display: flex;
+    max-width: 250px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Judul {
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+.ContainerDescription {
+    margin-top: 4px;
+    max-width: 300px;
+    width: 250px;
+    color: #6c757d;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.ContainerLogos {
+    position: relative;
+}
+
+.HidesParent {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+#Hides {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 16px;
+}
+
+.LogoEmail {
+    position: absolute;
+    top: 3.5px;
+    left: 8px;
+    font-size: 20px;
+}
+
+.LogoLock {
+    position: absolute;
+}
+
+.ContainerInputs {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputEmail{
+    position: absolute;
+    top: 0;
+}
+
+#Email {
+    width: 280px;
+    padding: 6px;
+    background: #dee2e6;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#Email:active {
+    outline: none;
+}
+
+#Email::placeholder {
+    position: absolute;
+    left: 30px;
+    font-size: 14px;
+}
+
+#Password {
+    width: 280px;
+    padding: 6px;
+    background: #dee2e6;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+#Password:active {
+    outline: none;
+}
+
+#Password::placeholder {
+    position: absolute;
+    left: 30px;
+    font-size: 14px;    
+}
+
+.LogoLock {
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    font-size: 20px;    
+}
+
+.InputPassword {
+    position: absolute;
+    top: 35px;
+}
+
+.ContainerHides {
+    position: relative;
+}
+
+.HidesParent {
+    position: absolute;
+}
+
+.ContainerForgot {
+    position: relative;
+}
+
+.ForgotParents {
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+
+.ForgotPswrd {
+    color: #403d39;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.ContainerGetStart {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.GetStartParents {
+    position: absolute;
+    top: 40px;
+}
+
+#GetStart {
+    cursor: pointer;
+    max-width: 300px;
+    width: 280px;
+    padding: 8px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg,rgba(122, 125, 128, 1) 0%, rgba(0, 18, 25, 1) 10%);
+    border: 1px solid #000000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
